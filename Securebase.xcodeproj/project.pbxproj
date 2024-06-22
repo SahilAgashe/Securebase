@@ -68,10 +68,7 @@
 				8134AF352C27364A00F81D25 /* Model */,
 				8134AF292C27347A00F81D25 /* Application */,
 				8134AF2A2C27349300F81D25 /* Controller */,
-				8134AF1E2C27345A00F81D25 /* Assets.xcassets */,
-				8134AF202C27345A00F81D25 /* LaunchScreen.storyboard */,
-				8134AF232C27345A00F81D25 /* Info.plist */,
-				8134AF2F2C27351300F81D25 /* Main.storyboard */,
+				8134AF3D2C2737AF00F81D25 /* Supporting Files */,
 			);
 			path = Securebase;
 			sourceTree = "<group>";
@@ -109,6 +106,17 @@
 				8134AF3B2C2736C400F81D25 /* UILogin.swift */,
 			);
 			path = UISecurity;
+			sourceTree = "<group>";
+		};
+		8134AF3D2C2737AF00F81D25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8134AF1E2C27345A00F81D25 /* Assets.xcassets */,
+				8134AF202C27345A00F81D25 /* LaunchScreen.storyboard */,
+				8134AF232C27345A00F81D25 /* Info.plist */,
+				8134AF2F2C27351300F81D25 /* Main.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,7 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Securebase/Info.plist;
+				INFOPLIST_FILE = "Securebase/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -360,7 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Securebase/Info.plist;
+				INFOPLIST_FILE = "Securebase/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
