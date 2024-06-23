@@ -36,11 +36,11 @@ class MasterViewController: UITableViewController {
         super.viewDidAppear(animated)
         
         // login if necessary
-        if (self.isUserLoggedIn() == false) {
-            self.login(completion: { (uLogin) in
-                self.userlogin = uLogin
+        if (isUserLoggedIn() == false) {
+            login(completion: { [weak self] (uLogin) in
+                self?.userlogin = uLogin
 
-                if (self.isUserLoggedIn()) {
+                if (self?.isUserLoggedIn() == true) {
                     // handle user logged in or not
                 }
             })

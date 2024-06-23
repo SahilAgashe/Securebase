@@ -15,19 +15,19 @@ extension UIViewController {
     /// - parameter completion: Called with user credentials, if any
     /// - parameter username: The entered username or nil
     /// - parameter password: The entered password or nil
-    func loginPrompt(completion : @escaping (_ username : String?,_ password : String?)->Void) {
+    func loginPrompt(completion: @escaping (_ username: String?, _ password: String?) -> Void ) {
         let alert = UIAlertController(title: "Login", message: "Enter Your Login Credentials", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { action in
-            completion(nil,nil)
-        }))
 
         alert.addTextField(configurationHandler: { textField in
             textField.placeholder = "Username"
         })
+        
         alert.addTextField(configurationHandler: { textField in
             textField.placeholder = "Password"
             textField.isSecureTextEntry = true
         })
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
 
         alert.addAction(UIAlertAction(title: "Login", style: .default, handler: { action in
             print ("\(alert.textFields?.first?.text ?? "nil") \(alert.textFields?.last?.text ?? "nil")")
@@ -35,7 +35,7 @@ extension UIViewController {
             completion(alert.textFields?.first?.text, alert.textFields?.last?.text)
         }))
 
-        self.present(alert, animated: true)
+        present(alert, animated: true)
     }
     
     // MARK: - Login/out
@@ -49,7 +49,7 @@ extension UIViewController {
         UserDefaults.standard.set(false, forKey: LOGGEDIN)
     }
     
-    func login(completion: @escaping (UserLogin?)->Void) {
+    func login(completion: @escaping (UserLogin?) -> Void) {
         if !UserDefaults.standard.bool(forKey: LOGGEDIN) {
             
             // May want Biometric authentication

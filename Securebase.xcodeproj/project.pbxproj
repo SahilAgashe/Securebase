@@ -14,7 +14,7 @@
 		8134AF302C27351300F81D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8134AF2F2C27351300F81D25 /* Main.storyboard */; };
 		8134AF322C2735EC00F81D25 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8134AF312C2735EC00F81D25 /* MasterViewController.swift */; };
 		8134AF342C2735FB00F81D25 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8134AF332C2735FB00F81D25 /* DetailViewController.swift */; };
-		8134AF372C27365E00F81D25 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8134AF362C27365E00F81D25 /* UserAccount.swift */; };
+		8134AF372C27365E00F81D25 /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8134AF362C27365E00F81D25 /* UserLogin.swift */; };
 		8134AF392C27367700F81D25 /* SecureMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8134AF382C27367700F81D25 /* SecureMgr.swift */; };
 		8134AF3C2C2736C400F81D25 /* UILogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8134AF3B2C2736C400F81D25 /* UILogin.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +29,7 @@
 		8134AF2F2C27351300F81D25 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8134AF312C2735EC00F81D25 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		8134AF332C2735FB00F81D25 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		8134AF362C27365E00F81D25 /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		8134AF362C27365E00F81D25 /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
 		8134AF382C27367700F81D25 /* SecureMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureMgr.swift; sourceTree = "<group>"; };
 		8134AF3B2C2736C400F81D25 /* UILogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,7 +94,7 @@
 		8134AF352C27364A00F81D25 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8134AF362C27365E00F81D25 /* UserAccount.swift */,
+				8134AF362C27365E00F81D25 /* UserLogin.swift */,
 				8134AF382C27367700F81D25 /* SecureMgr.swift */,
 			);
 			path = Model;
@@ -196,7 +196,7 @@
 				8134AF322C2735EC00F81D25 /* MasterViewController.swift in Sources */,
 				8134AF3C2C2736C400F81D25 /* UILogin.swift in Sources */,
 				8134AF342C2735FB00F81D25 /* DetailViewController.swift in Sources */,
-				8134AF372C27365E00F81D25 /* UserAccount.swift in Sources */,
+				8134AF372C27365E00F81D25 /* UserLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
