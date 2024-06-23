@@ -67,6 +67,7 @@
 				8134AF3A2C2736A700F81D25 /* UISecurity */,
 				8134AF352C27364A00F81D25 /* Model */,
 				8134AF292C27347A00F81D25 /* Application */,
+				81BF9E062C2850C300E08B1C /* Security Manager */,
 				8134AF2A2C27349300F81D25 /* Controller */,
 				8134AF3D2C2737AF00F81D25 /* Supporting Files */,
 			);
@@ -95,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				8134AF362C27365E00F81D25 /* UserLogin.swift */,
-				8134AF382C27367700F81D25 /* SecureMgr.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -117,6 +117,14 @@
 				8134AF2F2C27351300F81D25 /* Main.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81BF9E062C2850C300E08B1C /* Security Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8134AF382C27367700F81D25 /* SecureMgr.swift */,
+			);
+			path = "Security Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
