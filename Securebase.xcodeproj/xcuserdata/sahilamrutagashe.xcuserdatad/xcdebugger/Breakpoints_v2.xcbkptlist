@@ -34,6 +34,36 @@
             endingLineNumber = "40"
             landmarkName = "viewDidAppear(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "32587C32-52AE-4F42-8AF9-47CFF3F5CED8 - 5307036f920c6b79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Securebase.MasterViewController.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Securebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sahilamrutagashe/Documents/iOS%20Development/Sahil%20Agashe%20Github%20/Securebase/Securebase/Controller/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40">
+               </Location>
+               <Location
+                  uuid = "32587C32-52AE-4F42-8AF9-47CFF3F5CED8 - f5cd4418e15181e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Securebase.UserLogin&gt;) -&gt; () in Securebase.MasterViewController.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Securebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sahilamrutagashe/Documents/iOS%20Development/Sahil%20Agashe%20Github%20/Securebase/Securebase/Controller/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
