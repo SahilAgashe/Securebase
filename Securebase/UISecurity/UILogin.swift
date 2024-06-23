@@ -54,12 +54,12 @@ extension UIViewController {
             
             // May want Biometric authentication
 
-            self.loginPrompt { (username, password) in
+            self.loginPrompt { [weak self] (username, password) in
                 // verify
                 guard let un = username, let pw = password else {
                     // if either are nil, log out and
                     // call completion handler w/ nil
-                    self.logout()
+                    self?.logout()
                     print ("Login failed. Credentials NOT stored.")
                     completion(nil)
                     return
